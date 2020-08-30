@@ -43,10 +43,10 @@ const cardInfos = [
 
 function Home() {
     return (
-        <div className='home'>            
+        <div className='homepage'>            
             <Banner />
 
-            <div className='home_section'>
+            <div className='homepage_section'>
                 <Card 
                     src={cardInfos[0].src}
                     title={cardInfos[0].title}
@@ -64,7 +64,7 @@ function Home() {
                 />
             </div>
 
-            <div className='home_section'>
+            <div className='homepage_section'>
                 <Card 
                     src={cardInfos[3].src}
                     title={cardInfos[3].title}

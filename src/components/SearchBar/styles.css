@@ -1,11 +1,11 @@
-.search {
+.searchbar {
     position: absolute;
     top: 35px;
     left: 25%;
     width: 100vw;    
 }
 
-.search > h2 {
+.searchbar > h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,7 +17,7 @@
     top: 380px;
 }
 
-.search > input {
+.searchbar > input {
     width: 558px;
     padding: 20px;
     position: absolute;
@@ -27,11 +27,11 @@
     border: none;
 }
 
-.search > input:focus {
+.searchbar > input:focus {
     outline-width: 0;
 }
 
-.search > button {
+.searchbar > button {
     position: absolute;
     left: 0;
     top: 458px;
@@ -41,7 +41,7 @@
     width: 558px;
 }
 
-.search > button:hover {
+.searchbar > button:hover {
     background-color: white;
     color: #ff7779;
 }
